@@ -1,6 +1,7 @@
 # Consulta-CNPJ-CNAE-Receita
 Consulta uma lista de CNPJ e extrai o CNAE.
-Esse script foi desenvolvido para ajudar pesquisadores que precisam determinar o CNAE de uma lista de CNPJ.
+
+## Esse script foi desenvolvido para ajudar pesquisadores que precisam determinar o CNAE de uma lista de CNPJ.
 
 ### Material necessário:
 * Um arquivo texto com uma lista de CNPJ com apenas os números (sem pontos, barra e traço);
@@ -11,9 +12,9 @@ https://autohotkey.com/download/
 
 ### Como utilizar:
 * Baixe os arquivos getCNAE.ahk e commonRoutines.ahk para uma pasta no teu computador;
-* Crie o arquvio ListaCNPJ.txt - com a lista de CNPJ - nessa pasta;
+* Crie o arquivo ListaCNPJ.txt - com a lista de CNPJ - nessa pasta;
 * Dê duplo clique no arquivo getCNAE;
-* Informe o captacha solicitado pelo site da Receita Federal (Não sou um robô);
+* Informe o captacha solicitado pelo site da Receita Federal [Não sou um robô];
 * Clique no botão [Consultar].
 
 ### Funcionamento:
@@ -34,7 +35,7 @@ Obs: Eventualmente o site da Receita solicitará novamente que se informe o capt
 * Clique no botão [Consultar];
 
 ### Resultados esperados:
-* O arquivo ListaCNAE.txt com uma lista de CNPJ e CNAE separados por vírgula. Exemplo:
+* O arquivo ListaCNAE.txt com uma lista de CNPJ e CNAE separados por ponto-e-vírgula (;). Exemplo:
 ```sh
 00902397000101;14.12-6-01 - Confecção de peças de vestuário, exceto roupas íntimas e as confeccionadas sob medida
 ```
