@@ -28,7 +28,7 @@ O robô vai executar as operações:
 * Aguardar 20 segundos;
 * Repetir o processo.
 
-Obs: Esse tempo de 20 segundos foi um melhor equilibrio encontrado entre velocidade e solicitação de novo captcha pelo site. Menos de 20 segundos resulta em mais pedidos de captcha.
+Obs: Esse tempo de 20 segundos foi um equilibrio encontrado entre velocidade de execução e solicitação de novo captcha pelo site. Menos de 20 segundos resulta em mais pedidos de captcha.
 
 Obs: Eventualmente o site da Receita solicitará novamente que se informe o captcha.
 * Clique na checkBox [Não sou um robo];
