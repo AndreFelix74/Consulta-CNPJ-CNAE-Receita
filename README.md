@@ -1,11 +1,13 @@
 # Consulta-CNPJ-CNAE-Receita
-Consulta uma lista de CNPJ e extrai o CNAE
+Consulta uma lista de CNPJ e extrai o CNAE.
+Esse script foi desenvolvido para ajudar pesquisadores que precisam determinar o CNAE de uma lista de CNPJ.
 
 ### Material necessário:
-* Sistema operacional Windows
+* Um arquivo texto com uma lista de CNPJ com apenas os números (sem pontos, barra e traço);
+* Sistema operacional Windows;
 * Programa Auto Hot Key instalado:
 https://autohotkey.com/download/
-* Navegador Google Chrome
+* Navegador Google Chrome.
 
 ### Como utilizar:
 * Baixe os arquivos getCNAE e commonRoutines para uma pasta;
@@ -20,11 +22,13 @@ O robô vai executar as operações:
 * Abrir a página de consulta da receita;
 * Abrir o código fonte da página;
 * Extrair o CNAE do texto;
-* Salvar a informação no arquivo ListaCNAE.txt;
+* Salvar a informação do CNAE no arquivo ListaCNAE.txt;
 * Fechar a página com o código-fonte;
 * Fechar a página com a consulta do CNPJ;
 * Aguardar 20 segundos;
 * Repetir o processo.
+
+Obs: Esse tempo de 20 segundos foi um melhor equilibrio encontrado entre velocidade e solicitação de novo captcha pelo site. Menos de 20 segundos resulta em mais pedidos de captcha.
 
 Obs: Eventualmente o site da Receita solicitará novamente que se informe o captcha.
 * Clique na checkBox [Não sou um robo];
