@@ -40,7 +40,7 @@ Obs: Eventualmente o site da Receita solicitará novamente que se informe o capt
 ```
 
 ### Ações corretivas:
-* Algumas vezes o Site da Receita responde com uma pagina de erro. 
+Algumas vezes o Site da Receita responde com uma pagina de erro, execute os procedimentos abaixo antes de reiniciar a execução:
 * Encerrar a execução do Auto Hot Key;
 * Abra o arquivo ListaCNAE.txt e copie o CNPJ da última linha;
 * Feche o arquivo ListaCNAE.txt;
