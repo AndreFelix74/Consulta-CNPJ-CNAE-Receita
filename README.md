@@ -36,7 +36,7 @@ Obs: Eventualmente o site da Receita solicitará novamente que se informe o capt
 ### Resultados esperados:
 * O arquivo ListaCNAE.txt com uma lista de CNPJ e CNAE separados por vírgula. Exemplo:
 ```sh
-00902397000101,14.12-6-01 - Confecção de peças de vestuário, exceto roupas íntimas e as confeccionadas sob medida
+00902397000101;14.12-6-01 - Confecção de peças de vestuário, exceto roupas íntimas e as confeccionadas sob medida
 ```
 Dica: Esse arquivo pode ser aberto em qualquer programa de planilha eletrônica como o MSExcel.
 
