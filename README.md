@@ -10,9 +10,8 @@ https://autohotkey.com/download/
 * Navegador Google Chrome.
 
 ### Como utilizar:
-* Baixe os arquivos getCNAE e commonRoutines para uma pasta;
-* Crie o arquvio ListaCNPJ.txt nessa pasta;
-* Coloque a lista lista de CNPJs a serem consultados no arquivo ListaCNPJ.txt;
+* Baixe os arquivos getCNAE.ahk e commonRoutines.ahk para uma pasta no teu computador;
+* Crie o arquvio ListaCNPJ.txt - com a lista de CNPJ - nessa pasta;
 * Dê duplo clique no arquivo getCNAE;
 * Informe o captacha solicitado pelo site da Receita Federal (Não sou um robô);
 * Clique no botão [Consultar].
