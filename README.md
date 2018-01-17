@@ -1,7 +1,7 @@
 # Consulta-CNPJ-CNAE-Receita
 Consulta uma lista de CNPJ e extrai o CNAE.
 
-## Esse script foi desenvolvido para ajudar pesquisadores que precisam determinar o CNAE de uma lista de CNPJ.
+## Esse script foi desenvolvido para ajudar pesquisadoras que precisam determinar o CNAE de uma lista de CNPJ.
 
 ### Material necessário:
 * Um arquivo texto com uma lista de CNPJ com apenas os números (sem pontos, barra e traço);
