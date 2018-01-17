@@ -11,6 +11,8 @@ strRegExCNAE = CÓDIGO E DESCRIÇÃO DA ATIVIDADE ECONÔMICA PRINCIPAL[\s\S]*?<b
 
 SetKeyDelay, 100
 
+openPage("", "Nova guia")
+
 for index, element in arrayCNPJ {
 	openPage(strLinkBase element, "Comprovante de Inscrição e de Situação Cadastral")
 	Sleep, 500
