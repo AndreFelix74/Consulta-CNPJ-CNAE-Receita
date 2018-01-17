@@ -21,7 +21,7 @@ for index, element in arrayCNPJ {
 
 	RegExMatch(clipboard, strRegExCNAE, strMatch)
 
-	Fileappend, % element . "," . strMatch1 "`n",  ListaCNAE.txt
+	Fileappend, % element . ";" . strMatch1 "`n",  ListaCNAE.txt
 	
 	Send ^w
     Sleep, 20 * 1000
