@@ -1,8 +1,18 @@
 ﻿#Include commonRoutines.ahk
 
+lastCNPJ_CNAE := findLastCNPJ_CNAE()
+
+bLineReached := (lastCNPJ_CNAE = "")
+
 arrayCNPJ := Object()
+
 Loop, Read, ListaCNPJ.txt
 {
+    if (bLineReached = false) {
+        bLineReached := (A_LoopReadLine = lastCNPJ_CNAE)
+        continue
+    }
+
     arrayCNPJ.Insert(A_LoopReadLine)
 }
 
@@ -28,8 +38,21 @@ for index, element in arrayCNPJ {
 }
 
 copyPageContentCheck() {
-	if(SubStr(clipboard, 21, 34) = "<title>Companhias Listadas</title>") {
+	if (SubStr(clipboard, 21, 34) = "<title>Companhias Listadas</title>") {
 		Return true
 	}
+
 	Return true
+}
+
+findLastCNPJ_CNAE() {
+    strReturn := ""
+    Loop, Read, ListaCNAE.txt
+    {
+        strReturn = %A_LoopReadLine%
+    }
+
+    strReturn := SubStr(strReturn, 1, 14)
+
+    Return strReturn
 }
