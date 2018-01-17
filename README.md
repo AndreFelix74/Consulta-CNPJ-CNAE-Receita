@@ -44,14 +44,4 @@ Dica: Esse arquivo pode ser aberto em qualquer programa de planilha eletrônica 
 ### Ações corretivas:
 Algumas vezes o Site da Receita responde com uma pagina de erro, execute os procedimentos abaixo antes de reiniciar a execução:
 * Encerrar a execução do Auto Hot Key (clique no ícone H que aparece na barra de tarefas perto do relógio do Windows);
-* Abra o arquivo ListaCNAE.txt e vá para a última linha - pressione Ctrl+End;
-* Copie o CNPJ da última linha;
-* Feche o arquivo ListaCNAE.txt;
-* Abra o arquivo ListaCNPJ.txt;
-* Pressione Ctrl+f - vai abrir a caixa de diálogo Localizar;
-* Cole o CNPJ copiado do arquivo ListaCNAE.txt;
-* Clique no botão Localizar;
-* Apague as linhas para cima;
-* Salve o arquivo ListaCNPJ.txt;
-* Feche o editor do arquivo ListaCNPJ.txt;
 * Inicie novamente o procedimento.
